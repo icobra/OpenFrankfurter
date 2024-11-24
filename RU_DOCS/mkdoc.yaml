@@ -2,3 +2,6 @@ site_name: Open Frannkfurter documentation
 
 nav:
   - index.md
+
+theme:
+  name: material
