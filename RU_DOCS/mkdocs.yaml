@@ -1,7 +1,20 @@
 site_name: Open Frannkfurter documentation
+repo_url: https://github.com/icobra/OpenFrankfurter
+repo_name: icobra/OpenFrankfurter
 
 nav:
   - index.md
 
 theme:
   name: material
+  palette:
+    # Create scheme in data-md-color-scheme part of extra.ccs  
+    scheme: classic
+  logo: assets/logo.png
+  favicon: images/logo.png
+  icon:
+    repo: fontawesome/brands/github
+
+
+extra_css:
+  - stylesheets/extra.css
