@@ -1,9 +1,19 @@
 site_name: Open Frannkfurter documentation
 repo_url: https://github.com/icobra/OpenFrankfurter
 repo_name: icobra/OpenFrankfurter
+site_author: iCobra
+
+markdown_extensions:
+  - attr_list
 
 nav:
-  - index.md
+  - "About": index.md
+  - Get started:
+    - 'get_started/index.md': "Get started"
+  - FAQ:
+    - 'faq/index.md': "FAQ"
+  - Contributing:
+    - 'contributing/index.md': "Contributing"
 
 theme:
   name: material
@@ -11,10 +21,16 @@ theme:
     # Create scheme in data-md-color-scheme part of extra.ccs  
     scheme: classic
   logo: assets/logo.png
-  favicon: images/logo.png
+  favicon: assets/logo.png
   icon:
     repo: fontawesome/brands/github
 
+
+  features:
+    # Add navigation tabs in header
+    - navigation.sections
+    - navigation.tabs
+    - navigation.instant
 
 extra_css:
   - stylesheets/extra.css
