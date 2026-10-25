@@ -42,3 +42,8 @@ use
 python -m pip install --upgrade pip  -- to upgrade pip
 pip install -r requirements.txt
 ```
+
+
+TO DO
+
+Button colors
