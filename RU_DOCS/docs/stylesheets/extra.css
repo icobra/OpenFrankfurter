@@ -7,3 +7,7 @@
     --md-footer-fg-color: #47c8d1;
     --md-footer-bg-color: #23878E;
   }
+
+  :root > * {
+    --md-button--primary-color: #f10f40;
+  }
