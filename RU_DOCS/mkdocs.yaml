@@ -6,14 +6,16 @@ site_author: iCobra
 markdown_extensions:
   - attr_list
 
+plugins:
+  - search:
+      lang: en
+
 nav:
-  - "About": index.md
-  - Get started:
-    - 'get_started/index.md': "Get started"
-  - FAQ:
-    - 'faq/index.md': "FAQ"
-  - Contributing:
-    - 'contributing/index.md': "Contributing"
+  - "About": 'index.md'
+  - "Get started": 'get_started/index.md'
+  - "FAQ": 'faq/index.md'  
+  - "Contributing": 'contributing/index.md'
+
 
 theme:
   name: material
